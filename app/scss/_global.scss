@@ -1,8 +1,59 @@
 html{
     box-sizing: border-box;
+    height: 100%;
 }
 *,
 *::before,
 *::after{
     box-sizing: inherit;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+ul,
+li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+body{
+    height: 100%;
+    overflow-x: hidden;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+}
+.content {
+	flex: 1 0 auto;
+}
+.footer {
+	flex: 0 0 auto;
+}
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.product-type{
+    padding-left: 22px;
+    position: relative;
+    color: #7347c1;
+    font-size: 15px;
+    &::before{
+        content: "";
+        color: #7347c1;
+        position: absolute;
+        left: 0;
+    }
+}
+.wordpress-icon::before{
+    background-image: url(../images/icons/wordpress.svg);
+    width: 16px;
+    height: 16px;
 }

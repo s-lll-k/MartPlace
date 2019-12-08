@@ -1,18 +1,294 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:400,500,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
     <link rel="stylesheet" href="css/libs.min.css">
     <link rel="stylesheet" href="css/style.min.css">
 </head>
-<body>
 
-    
+<body>
+    <div class="wrapper">
+        <div class="content">
+            <header class="header">
+                <div class="header-top">
+                    <div class="container">
+                        <div class="header-top__inner">
+                            <a href="#"><img src="images/logo.png" alt="" class="logo"></a>
+                            <a class="header-top__btn" href="#">
+                                Become a Seller
+                            </a>
+                            <div class="header-top__user-area">
+                                <div class="header-top__menu notification lnr-alarm">
+                                    <span>25</span>
+                                    <div class="header__dropdown-menu notification-menu">
+                                        <div class="menu__title-block">
+                                            <div class="menu-title">
+                                                My Notifications
+                                            </div>
+                                            <a href="#" class="menu__view-all">View All</a>
+                                        </div>
+                                        <div class="notification__item">
+                                            <a href="#" class="notification__item-photo"
+                                                style="background-image: url(images/content/avatar.jpg);"></a>
+                                            <div class="notification__item-content">
+                                                <div class="notification__item-info">
+                                                    <a href="#" class="notification__item-name">Anderson</a>
+                                                     added to Favourite 
+                                                    <a href="#" class="notification__item-place">Marketify Coffee Shop</a>
+                                                    <div class="notification__item-time">Just now</div>
+                                                </div>
+                                                <a href="#" class="notification__item-btn favorite"></a>
+                                            </div>
+                                        </div>
+                                        <div class="notification__item">
+                                            <a href="#" class="notification__item-photo"
+                                                style="background-image: url(images/content/avatar.jpg);"></a>
+                                            <div class="notification__item-content">
+                                                <div class="notification__item-info">
+                                                    <a href="#" class="notification__item-name">Michael Jorden</a>
+                                                     commented on 
+                                                    <a href="#" class="notification__item-place">MartPlace Extension Bundle</a>
+                                                    <div class="notification__item-time">2 howrs ago</div>
+                                                </div>
+                                                <a href="#" class="notification__item-btn comment"></a>
+                                            </div>
+                                        </div>
+                                        <div class="notification__item">
+                                            <a href="#" class="notification__item-photo"
+                                                style="background-image: url(images/content/avatar.jpg);"></a>
+                                            <div class="notification__item-content">
+                                                <div class="notification__item-info">
+                                                    <a href="#" class="notification__item-name">Moshed</a>
+                                                     Purchased 
+                                                    <a href="#" class="notification__item-place">Bryson-Responsive Template</a>
+                                                    <div class="notification__item-time">6 howrs ago</div>
+                                                </div>
+                                                <a href="#" class="notification__item-btn purchase"></a>
+                                            </div>
+                                        </div>
+                                        <div class="notification__item">
+                                            <a href="#" class="notification__item-photo"
+                                                style="background-image: url(images/content/avatar.jpg);"></a>
+                                            <div class="notification__item-content">
+                                                <div class="notification__item-info">
+                                                    <a href="#" class="notification__item-name">Tamim</a>
+                                                     wrote a review on 
+                                                    <a href="#" class="notification__item-place">Rida-Responsive vCard Temp...</a>
+                                                    <div class="notification__item-time">2 days ago</div>
+                                                </div>
+                                                <a href="#" class="notification__item-btn review"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="header-top__menu messages lnr-envelope">
+                                    <span>6</span>
+                                    <div class="header__dropdown-menu messages-menu">
+                                        <div class="menu__title-block">
+                                            <div class="menu-title">
+                                                My Messages
+                                            </div>
+                                            <a href="#" class="menu__view-all">View All</a>
+                                        </div>
+                                        <a href="#" class="message-item unread">
+                                            <div class="message__avatar"
+                                                style="background-image: url(images/content/avatar.jpg);"></div>
+                                            <div class="message__content">
+                                                <div class="message__info">
+                                                    <div class="message__name">
+                                                        Washim
+                                                    </div>
+                                                    <div class="message__time">
+                                                        Just now
+                                                    </div>
+                                                </div>
+                                                <div class="message__text">
+                                                    Hello John Smith! Nunc placerat id...
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a href="#" class="message-item unread">
+                                            <div class="message__avatar"
+                                                style="background-image: url(images/content/avatar.jpg);"></div>
+                                            <div class="message__content">
+                                                <div class="message__info">
+                                                    <div class="message__name">
+                                                        Bulbul Ahmed
+                                                    </div>
+                                                    <div class="message__time">
+                                                        2 hours ago
+                                                    </div>
+                                                </div>
+                                                <div class="message__text">
+                                                    Hello John Smith! Nunc placerat id...
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a href="#" class="message-item">
+                                            <div class="message__avatar"
+                                                style="background-image: url(images/content/avatar.jpg);"></div>
+                                            <div class="message__content">
+                                                <div class="message__info">
+                                                    <div class="message__name">
+                                                        EchoTheme
+                                                    </div>
+                                                    <div class="message__time">
+                                                        Jul 16
+                                                    </div>
+                                                </div>
+                                                <div class="message__text">
+                                                    Hello John Smith! Nunc placerat id...
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a href="#" class="message-item">
+                                            <div class="message__avatar"
+                                                style="background-image: url(images/content/avatar.jpg);"></div>
+                                            <div class="message__content">
+                                                <div class="message__info">
+                                                    <div class="message__name">
+                                                        Themeluva
+                                                    </div>
+                                                    <div class="message__time">
+                                                        May 23
+                                                    </div>
+                                                </div>
+                                                <div class="message__text">
+                                                    Hello John Smith! Nunc placerat id...
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a href="#" class="message-item">
+                                            <div class="message__avatar"
+                                                style="background-image: url(images/content/avatar.jpg);"></div>
+                                            <div class="message__content">
+                                                <div class="message__info">
+                                                    <div class="message__name">
+                                                        Adnan
+                                                    </div>
+                                                    <div class="message__time">
+                                                        Mar 26
+                                                    </div>
+                                                </div>
+                                                <div class="message__text">
+                                                    Hello John Smith! Nunc placerat id...
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="header-top__menu basket lnr-cart">
+                                    <span>2</span>
+                                    <div class="header__dropdown-menu basket-menu">
+                                        <div class="basket__item">
+                                            <a href="#" class="basket__item-photo"
+                                                style="background-image: url(images/content/basket-photo.jpg);"></a>
+                                            <div class="basket__item-content">
+                                                <a href="#" class="basket__item-title">
+                                                    Finance and Consulting
+                                                    Business Theme
+                                                </a>
+                                                <a href="#" class="delete-btn"></a>
+                                                <div class="basket__item-info">
+                                                    <a href="#" class="product-type wordpress-icon">WordPress</a>
+                                                    <div class="product-price">$60</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="basket__item">
+                                            <a href="#" class="basket__item-photo"
+                                                style="background-image: url(images/content/basket-photo.jpg);"></a>
+                                            <div class="basket__item-content">
+                                                <a href="#" class="basket__item-title">
+                                                    Flounce - Multipurpose
+                                                    OpenCart Theme
+                                                </a>
+                                                <a href="#" class="delete-btn"></a>
+                                                <div class="basket__item-info">
+                                                    <a href="#" class="product-type wordpress-icon">WordPress</a>
+                                                    <div class="product-price">$20</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="basket-menu__total">
+                                            Total:
+                                            <div class="basket-menu__total-sum">$80</div>
+                                        </div>
+                                        <div class="basket-menu__buttons">
+                                            <a class="btn-cart" href="#">Go to Cart</a>
+                                            <a class="btn-checkout" href="#">Go to Checkout</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="user">
+                                    <div class="user__avatar"
+                                        style="background-image: url(images/content/user-avatar.jpg);">
+                                    </div>
+                                    <div class="user__info">
+                                        <div class="user-name">Taofiq Hakim</div>
+                                        <div class="user-cash">$20.45</div>
+                                    </div>
+                                    <div class="header__dropdown-menu user-menu">
+                                        <ul class="user-menu__list">
+                                            <li><a class="lnr-user" href="#">Profile Page</a></li>
+                                            <li><a class="lnr-home" href="#">Dashboard</a></li>
+                                            <li><a class="lnr-cog" href="#">Account Settings</a></li>
+                                            <li><a class="lnr-cart" href="#">Your Purchases</a></li>
+                                            <li><a class="lnr-heart" href="#">Your Favorites</a></li>
+                                            <li><a class="lnr-dice" href="#">Add Credits</a></li>
+                                            <li><a class="lnr-chart-bars" href="#">Sales Statements</a></li>
+                                            <li><a class="lnr-upload" href="#">Upload Item</a></li>
+                                            <li><a class="lnr-book" href="#">Edit Item</a></li>
+                                            <li><a class="lnr-briefcase" href="#">Withdrawals</a></li>
+                                            <li><a class="lnr-exit" href="#">Logout</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="header-second">
+                    <div class="container">
+                        <div class="header-second__inner">
+                            <nav class="header-second__menu">
+                                <ul class="menu-list">
+                                    <li><a href="#">Home</a></li>
+                                    <li><a href="#">All products</a></li>
+                                    <li><a href="#">WordPress</a></li>
+                                    <li><a href="#">Features</a></li>
+                                    <li><a href="#">Pages</a></li>
+                                </ul>
+                            </nav>
+                            <div class="header__search">
+                                <form>
+                                    <input type="text" placeholder="Search product here..." required>
+                                    <button type="submit">
+                                    </button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+
+
+
+
+        </div>
+        <footer class="footer"></footer>
+    </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="js/libs.min.js"></script>
     <script src="js/main.js"></script>
 </body>
+
 </html>
